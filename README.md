@@ -21,7 +21,7 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 - You must use Next.js (React is not allowed). But its not compulsory to use Next.13 App folder feature.
 - Fetch data from the provided API using Next.js data fetching methods.
 - Create a visually appealing UI using any CSS framework (like Bootstrap, Tailwind CSS).
-- Use reqct query (Tanstack query) for fetching and caching the api data.
+- Use react query (Tanstack query) for fetching and caching the api data.
 - Implement client-side routing to enable smooth transitions between pages.
 - Write clean, maintainable, and well-documented code.
 - Use Git for version control, committing your code regularly to the forked Git repository in your profile.
@@ -37,12 +37,13 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 
 ## Submission Guidelines:
 
-1. Fork the given GitHub repository to your own GitHub account.
+1. Fork this GitHub repository [Assignment Repo](https://github.com/internsathi/frontend-assignment) to your own GitHub account.
 2. Commit your code regularly and push the changes to your forked repository.
-3. Do not create a pull request, instead, submit your forked repository.
+3. Do not create a pull request; just submit your forked repository.
 4. Provide a DOCS.md file with instructions on how to set up and run your application.
-5. Once you have completed the assignment, share the repository URL along with the live deployed URL of your project with us via the submission form.
+5. Once you have completed the assignment, share the repository URL with us via the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSd49m7F_6oSXSI5RFQY_ps2CDQIt3i_iCqrPgzplbqIy8N4EA/viewform).
 
 - Submission Deadline: Thursday, July 6, 2023, 11:00 AM
 
+Check out the discussion section of this repo to ask any related queries or doubts.
 Note: The assignment is intended to help you grasp basic concepts. Don't hesitate to ask for any clarifications in the discussion section of this repo. Good luck with your assignment!
