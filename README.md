@@ -39,7 +39,7 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 1. Fork this GitHub repository [Assignment Repo](https://github.com/internsathi/frontend-assignment) to your own GitHub account.
 2. Commit your code regularly and push the changes to your forked repository.
 3. Do not create a pull request; just submit your forked repository.
-4. Provide a DOCS.md file with instructions on how to set up and run your application.
+4. Provide a DOCS.md file with all the technologies used and how to run the program locally.
 5. Once you have completed the assignment, share the repository URL with us via the [submission form](https://docs.google.com/forms/d/e/1FAIpQLSd49m7F_6oSXSI5RFQY_ps2CDQIt3i_iCqrPgzplbqIy8N4EA/viewform).
 
 - Submission Deadline: Thursday, July 6, 2023, 11:00 AM
