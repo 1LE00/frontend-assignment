@@ -1,8 +1,8 @@
-# Assignment Title: Introduction to Next.js - E-commerce Development Task
+# Assignment Title: E-commerce Development Task
 
 ## Assignment Description:
 
-In this assignment, you will create a basic e-commerce application using Next.js. You'll apply key Next.js concepts and fundamental web development skills. Your task is to develop a multi-page web application named "OnlineStore" that allows users to browse and search for products.
+In this assignment, you will create a basic e-commerce application using Next.js / React.js. You'll apply key React/Next concepts and fundamental web development skills. Your task is to develop a multi-page web application named "OnlineStore" that allows users to browse and search for products.
 
 ## Instructions:
 
@@ -17,9 +17,7 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 
 ## Requirements:
 
-- Use Next.js to create the web application.
-- You must use Next.js (React is not allowed). But its not compulsory to use Next.13 App folder feature.
-- Fetch data from the provided API using Next.js data fetching methods.
+- Use React.js/Next.js to create the web application.
 - Create a visually appealing UI using any CSS framework (like Bootstrap, Tailwind CSS).
 - Use react query (Tanstack query) for fetching and caching the api data.
 - Implement client-side routing to enable smooth transitions between pages.
@@ -30,6 +28,7 @@ You can fetch data using the following API endpoint: https://fakestoreapi.com/
 ### Bonus Points:
 
 - Making use of TypeScript for type safety.
+- Use of Next.js is preferred over react
 - Use of global state management with Redux toolkit, Recoil or any other state management library.
 - Implement a responsive UI to improve user experience on mobile devices.
 - Handle loading and error states during data fetching.
