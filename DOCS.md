@@ -25,16 +25,17 @@ This project was built using the following technologies:
 
 To run this project locally, follow these steps:
 
-1. **Clone the repository:**
+1. **Clone the repository:** &nbsp;
 
 git clone https://github.com/1LE00/frontend-assignment.git
+
 cd your-repository
 
-2. **Install Dependencies:**
+2. **Install Dependencies:** &nbsp;
 
 npm install
 
-3. **Run the Development Server:**
+3. **Run the Development Server:** &nbsp;
 
 npm run dev
 
