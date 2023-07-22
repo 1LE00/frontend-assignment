@@ -29,7 +29,7 @@ To run this project locally, follow these steps:
 
 git clone https://github.com/1LE00/frontend-assignment.git
 
-cd your-repository
+cd frontend-assignment
 
 2. **Install Dependencies:** &nbsp;
 
