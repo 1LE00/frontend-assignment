@@ -1,0 +1,38 @@
+.header,
+.products,
+.searchbar {
+  padding: 1.75rem var(--padding-inline);
+}
+
+.details-container {
+  padding: 4rem var(--padding-inline);
+}
+
+::placeholder {
+  transition: font-size 0.25s ease-in;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --padding-inline: 4rem !important;
+  }
+  /* header elements */
+  .main-logo svg path {
+    transition: fill 0.25s ease-in;
+  }
+
+  .main-logo:hover svg path {
+    fill: hsl(var(--clr-primary-orange));
+  }
+  /* header elements */
+
+  /* product elements */
+  .product-image-holder {
+    perspective: 500px;
+  }
+
+  .product-image-holder:hover > img {
+    transform: translateZ(200px);
+  }
+  /* product elements */
+}

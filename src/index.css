@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Primary Colors */
+  --clr-primary-orange: 26, 100%, 55%;
+  --clr-primary-pale-orange: 25, 100%, 94%;
+
+  /* Neutral Colors */
+  --clr-neutral-very-dark-blue: 220, 13%, 13%;
+  --clr-neutral-dark-grayish-blue: 219, 9%, 45%;
+  --clr-neutral-grayish-blue: 220, 14%, 75%;
+  --clr-neutral-light-grayish-blue: 223, 64%, 98%;
+  --clr-light-mode-bg: 0, 0%, 98%;
+  --clr-white: 0, 0%, 100%;
+  --clr-black: 0, 0%, 0%;
+
+  /* font-sizes */
+  --fs-900: clamp(5rem, 8vw + 1rem, 9.375rem);
+  --fs-800: 3.5rem;
+  --fs-700: 2.5rem;
+  --fs-600: 2rem;
+  --fs-500: 1.5rem;
+  --fs-400: 1rem;
+  --fs-300: 0.9375rem;
+  --fs-200: 0.85rem;
+  --fs-100: 0.8rem;
+  --fs-default: 1.125rem;
+
+  /* font-families */
+  --ff-default: "Kumbh Sans", sans-serif;
+
+  --padding-inline: 1.75rem;
+}
+
+/* Custom properties */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--ff-default);
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.2;
+}
+
+img,
+picture {
+  display: block;
+  max-width: 100%;
+  -webkit-user-drag: none;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  background: none;
+  appearance: none;
+  border: none;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Custom properties */
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: hsl(var(--clr-neutral-dark-grayish-blue));
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: hsl(var(--clr-primary-orange));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: hsl(var(--clr-primary-orange), 0.8);
+}
+
+::selection {
+  color: hsl(var(--clr-neutral-very-dark-blue));
+  background-color: hsl(var(--clr-primary-orange), 0.9);
+}
