@@ -27,9 +27,11 @@ To run this project locally, follow these steps:
 
 1. **Clone the repository:** &nbsp;
 
+```bash
 git clone https://github.com/1LE00/frontend-assignment.git
 
 cd frontend-assignment
+```
 
 2. **Install Dependencies:** &nbsp;
 
@@ -63,4 +65,4 @@ The project has the following folder structure:
 - `tailwind.config.js`: The Tailwind CSS configuration file. It allows you to customize Tailwind CSS settings, such as colors, fonts, and more.
 - `postcss.config.js`: The PostCSS configuration file. PostCSS is used by Vite to process CSS. You can configure PostCSS plugins and options in this file.
 - `package.json`: The npm package file that lists all project dependencies and scripts.
-- `package-lock.json` or `yarn.lock`: Lock files that ensure consistent installations of project dependencies.
+- `package-lock.json`: Lock files that ensure consistent installations of project dependencies.
