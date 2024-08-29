@@ -21,12 +21,10 @@ export default function Product({ id, title, image, price }) {
             </section>
             <section className={`product-content flex flex-col p-4 gap-4 text-left`}>
                 <dl className='name flex text-200 text-neutral-dark-grayish-blue gap-1 min-[604px]:min-h-[40.8px]'>
-                    <dt className='key font-bold'>Name:</dt>
-                    {/* Limit the title to 40 lengths of characters */}
-                    <dd className='value' title={title}>{title.trim().length >= 40 ? title.slice(0, 40) + '...' : title}</dd>
+                    {/* Limit the title to 50 lengths of characters */}
+                    <dd className='value' title={title}>{title.trim().length >= 50 ? title.slice(0, 50) + '...' : title}</dd>
                 </dl>
                 <dl className='price flex text-200 text-neutral-dark-grayish-blue gap-1'>
-                    <dt className='key w-[41.26px] font-bold'>Price:</dt>
                     <dd className='value'>{`$ ${price}`}</dd>
                 </dl>
             </section>
